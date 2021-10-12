@@ -17,13 +17,19 @@ You obtain and Excel file as output. It contains a sheet with experimental and c
 
 ## 3. The models 
 
- Ostwald – de Waele power law
- Carreau
- Carreau-Yasuda
- Cross
- Bingham
- Herschel-Bulkley
- Casson
+    • Ostwald – de Waele power law
+      
+    • Carreau
+      
+    • Carreau-Yasuda
+      
+    • Cross
+        
+    • Bingham
+       
+    • Herschel-Bulkley
+       
+    • Casson
 
 Details for each can be easily found online. Equation are written into decorators and fitted to the experimental values using the Scikit-Learn curve-fitting package.
 
