@@ -1,6 +1,7 @@
 ﻿# Flow curve fitter
 
 Software that fits rheological models to viscometer measurements of stress vs. strain rate. Code is written in Python language. 
+Demo video: https://www.youtube.com/watch?v=0Tc-vnOoss0
 
 ![flowcurves](flowcurves.png)
 
@@ -36,6 +37,9 @@ Details for each can be easily found online. Equation are written into decorator
 ![jupyter](jupyter.png)The whole code can be found in the [following Jupyter notebook](https://github.com/opsabarsec/flow-curve-fitter/blob/master/Flow_curves_models_fit.ipynb)
 
 Data from a selected model are presented as experimental fit and plotted with Matplotlib. 
+
+![fit](carreau.png)
+
 
 ## 4. Conclusions 
 - Open the file "input_data.csv" and paste the values of strain rate and stress you would like to model. Several theoretical models are quickly fitted to experimental data. Constant and curvefits are calculated for each.
