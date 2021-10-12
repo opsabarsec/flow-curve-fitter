@@ -1,5 +1,6 @@
-# Flow curve fitter
-A Python script that fits rheological models to viscometer measurements of stress vs. strain rate
+﻿# Flow curve fitter
+
+Software that fits rheological models to viscometer measurements of stress vs. strain rate. Code is written in Python language. 
 
 ![flowcurves](flowcurves.png)
 
@@ -8,7 +9,7 @@ Shear viscosity is an important measurement technique for several industries: fo
 To quantify the material properties several models have been developed, from a simple power law to more complex equations that are virtually impossible to insert into common spreadsheets software. This software makes the above task intuitive, fast and easy. 
 
 ## 2. The data
-Synthetic data representative of a shear thinning fluid such as mayonese or chocolate spread.
+Synthetic data representative of a shear thinning fluid such as mayonnaise or chocolate spread.
 
 Only two columns (features), shear strain rate and shear stress, are given as input in the file "input_data.csv". To fit your data simply update the file pasting the corresponding values from your measurement.
 
@@ -24,9 +25,9 @@ You obtain and Excel file as output. It contains a sheet with experimental and c
  Herschel-Bulkley
  Casson
 
-Details for each can be easily found online.
+Details for each can be easily found online. Equation are written into decorators and fitted to the experimental values using the Scikit-Learn curve-fitting package.
 
-![jupyter](jupyter.png)The whole code can be found at [following Jupyter notebook](https://github.com/opsabarsec/flow-curve-fitter/blob/master/Flow curves models fit.ipynb)
+![jupyter](jupyter.png)The whole code can be found in the [following Jupyter notebook](https://github.com/opsabarsec/flow-curve-fitter/blob/master/Flow_curves_models_fit.ipynb)
 
 Data from a selected model are presented as experimental fit and plotted with Matplotlib. 
 
